@@ -21,7 +21,7 @@ fs = 100;                       % Sampling frequency (in Hz) used during the mea
 cutOffLowPass = 10;             % Specified cut-off frequency of the low-pass filter. If this is an array, segments corresponding to each frequency will be selected. 
 isAutomatic   = 1;              % Specify the data selection criterion used
 isOverlap     = true;          % Boolean variable to specify whether overlap is allowed: if isOverlap == true, the timeframe(s) specified can have overlapping segments.
-timeframe     = 5:40;             % Timeframe of segment(s). 
+timeframe     = 30;             % Timeframe of segment(s). 
 
 %% ---------------- Test Subject 001 ---------------- %%
 
